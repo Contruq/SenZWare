@@ -1,4 +1,4 @@
 while true do
-wait(200)
+wait(180)
 game:GetService("TeleportService"):Teleport(301549746, LocalPlayer)
 end
