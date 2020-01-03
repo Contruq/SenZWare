@@ -1,3 +1,3 @@
 local player=game.Players.LocalPlayer
 local role = player:WaitForChild("Status"):WaitForChild("Role").Value
-game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PlayerChatted"):FireServer(("I LOVE YOU KRUMPANT CAN I EAT UR dirtyass"), false, role, not player:WaitForChild("Status"):WaitForChild("Alive").Value, false)
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PlayerChatted"):FireServer(("IM AFK + Destroying your dirtyass"), false, role, not player:WaitForChild("Status"):WaitForChild("Alive").Value, false)
