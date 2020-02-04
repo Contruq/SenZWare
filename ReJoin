@@ -1,4 +1,4 @@
-while true do
-wait(220)
-game:GetService("TeleportService"):Teleport(301549746, LocalPlayer)
+repeat wait(.1) until game.Players.NumPlayers <= 5 do
+    local GameID = 301549746
+    game:GetService("TeleportService"):Teleport(301549746)
 end
