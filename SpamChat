@@ -1,3 +1,3 @@
 local player=game.Players.LocalPlayer
 local role = player:WaitForChild("Status"):WaitForChild("Role").Value
-game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PlayerChatted"):FireServer(("Bااuااyاا ااtااhااiااsاا ااSااcااrااiااpااtاا ااnااoااwاا.اا ااhااtااtااpااsاا:اا/اا/ااdااiااsااcااoااrااdاا.ااgااgاا/ااjاا8ااVااpااPااEااN"), false, role, not player:WaitForChild("Status"):WaitForChild("Alive").Value, false)
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PlayerChatted"):FireServer((Chat), false, role, not player:WaitForChild("Status"):WaitForChild("Alive").Value, false)
